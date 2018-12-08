@@ -46,7 +46,8 @@ mainVue.prototype.registerAction=function(){
 };
 
 mainVue.prototype.submit=function(){
-    alert();
+    var self =this;
+    self.elements.nameParagraphe.innerHTML=self.elements.nameInput.value; 
 };
 
 var m=new mainVue();
