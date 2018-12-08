@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Style/main.css" />
+    
+</head>
+<body>
+    <div data-vue="main">
+        <h1>Bonjour</h1>
+        <form data-form="main">
+            <input type="text" data-model="name">
+            <input type="button" value="valider" data-action="submit">
+        </form>
+        <div data-render="main">
+            <p data-model="name"></p>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
